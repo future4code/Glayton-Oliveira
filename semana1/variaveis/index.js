@@ -6,6 +6,7 @@
 
 /* 3 - Analise o programa abaixo, entenda o que ele faz e sugira melhores nomes para as variáveis.
 Lembre-se que devemos escolher nomes significativos, usar o padrão camelCase.
+
 Alem disso, os nomes não podem começar com números ou caracteres especiais.*/
 /*let horasTrabalhadas = Number(prompt ("Quantas horas você trabalha por dia?"));
 let valorDaDiaria = Number(prompt ("Quanto você recebe no dia?"));
@@ -21,17 +22,23 @@ alert("voce recebe", (valorDaDiaria)+(horasTrabalhadas)," por dia")*/
 // isso ocorre porque eu não declarei no escopo que a minha variavel só é aceita do tipo numero.
 
 /*const nome = prompt ("qual é o seu nome?");
+
 const idade = prompt ("qual sua idade?");
 // notei que eu digitei e não imprimiu o valor digitado da minha variavel, faltou o console.log
 console.log(nome);
 console.log(idade);
 //agora com o console.log eu consigo visualizar pelo console as respostas da minha variavel
+
 console.log("olá,",(nome),"você tem", (idade),"anos");*/
+
+console.log("olá,",(nome),"você tem", (idade),"anos");
+
 
 //Escreva um programa que faça 3 perguntas de Sim ou Não, armazenado em uma variável. 
 //Por exemplo: "Você está usando uma roupa azul hoje?". Depois, siga os passos:
 //a) Crie três novas variáveis, contendo as respostas
 //b) Imprima na tela todas as perguntas seguidas por suas respectivas respostas. Por exemplo:
+
 
 let roupa = ("você está usando roupa azul hoje?");
 let bebeuAgua = ("você parou pra beber água hoje?");
@@ -50,6 +57,7 @@ console.log(estudando,"-",resposta3);
 //Suponha que temos duas variáveis a e b, cada uma com um valor inicial
 
 /*let a = 10;
+
 let b = 25;
 let c = a;
 
@@ -58,7 +66,9 @@ b = c;
 
 
 console.log("O novo valor de A é", a);
+
 console.log("O novo valor de B é", b);*/
+
 
 /*pensei assim tmb
 let n1 = prompt("digite o valor A para que seja invertido para B");
@@ -72,11 +82,14 @@ forçando que o usuario digite um valor, a partir daqui fica dificil ter erro, p
 //O primeiro número somado ao segundo número resulta em: x
 //O primeiro número multiplicado pelo segundo número resulta em: y
 
+
 /*let numero1 = Number(prompt("digite o primeiro numero"));
+
 let numero2 = Number(prompt("digite o segundo numero"));
 
 let x = (numero1) + (numero2);
 let y = (numero1) * (numero2);
 
 console.log("resultado da soma é",x);
+
 console.log("resultado da multiplicação é",y);*/
