@@ -70,6 +70,9 @@ while(quantidadeAtual < quantidadeTotal){
 const NumerosBichinhos = () =>{
 
     let bichinhos = Number(prompt("quantos bichinhos de estimação você tem no total?"))
+
+    //let resposta = bichinhos
+
     let quantidade = []
     let contador = 1
     if(bichinhos === 0){
