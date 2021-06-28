@@ -26,7 +26,7 @@ return ArrayParaParesElevado
 function retornaNumerosPares(array) {
 
 let ArrayVazio = []
-for(let i = 0; i < array; i++){
+for(let i = 0; i < array.length; i++){
   if(array[i] %2 ===0){
     ArrayVazio.push(array[i])
   }
