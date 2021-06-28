@@ -12,11 +12,27 @@ return arrayNovo
 // EXERCÍCIO 02
 function retornaNumerosParesElevadosADois(array) {
 
+let ArrayParaParesElevado = []
+for(let i = 0; i< array.length; i++){
+  if(array[i] % 2 ===0) {
+ArrayParaParesElevado.push(Math.pow(array[i],2))
+  }
+
+}
+return ArrayParaParesElevado
 }
 
 // EXERCÍCIO 03
 function retornaNumerosPares(array) {
 
+let ArrayVazio = []
+for(let i = 0; i < array; i++){
+  if(array[i] %2 ===0){
+    ArrayVazio.push(array[i])
+  }
+
+}
+return ArrayVazio
 }
 
 // EXERCÍCIO 04
