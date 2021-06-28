@@ -37,7 +37,13 @@ return ArrayVazio
 
 // EXERCÍCIO 04
 function retornaMaiorNumero(array) {
-
+let MaiorArray = 0
+for(let i = 0; i < array.length; i++){
+  if(array [i] > MaiorArray){
+    MaiorArray = array[i]
+  }
+}
+return MaiorArray
 }
 
 // EXERCÍCIO 05
