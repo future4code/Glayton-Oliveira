@@ -1,0 +1,13 @@
+#cores-funcionarios {
+
+    background-color: rgba(27, 9, 184, 0.616);
+    color:rgba(184, 17, 17, 0.787);
+    display:inline;
+    width: 400px;
+    font: 40px, helvetica, sans-serif;
+    border-bottom: 0px solid;
+    border-left: 2px;
+    border-top: 2px;
+    border-right: 15px;
+    padding-left: 15px;
+}

@@ -1,0 +1,32 @@
+h1{
+    background-color: rgb(43, 198, 226);
+    color:black;
+    display:inline;
+    width: 400px;
+    font: 40px, helvetica, sans-serif;
+    border-bottom: 5px solid;
+    border-left: 2px;
+    border-top: 2px;
+    border-right: 15px;
+    padding-left: 15px;
+}
+
+
+body{
+    background: url(./img/camelo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+
+
+.footer{
+   position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+

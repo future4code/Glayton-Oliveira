@@ -1,0 +1,25 @@
+.estoque{
+background-color: rgba(218, 196, 7, 0.486);
+color:black;
+display:inline;
+width: 400px;
+font: 40px, helvetica, sans-serif;
+border-bottom: 0px solid;
+border-left: 2px;
+border-top: 2px;
+border-right: 15px;
+padding-left: 15px;
+}
+
+.adicionar{
+background-color: rgba(218, 196, 7, 0.486);
+color:black;
+display:inline;
+width: 400px;
+font: 40px, helvetica, sans-serif;
+border-bottom: 0px solid;
+border-left: 2px;
+border-top: 2px;
+border-right: 15px;
+padding-left: 15px;
+}
