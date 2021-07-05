@@ -1,0 +1,58 @@
+header {
+    border: 0px solid darkgray;
+    display: flex;
+    background-color: mediumvioletred;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    
+}
+
+header > div{
+    margin: 10px;
+    height: 20px;
+    align-items: center;
+}
+
+img{
+    height: 18px;
+    width: 18px;
+    
+}
+button{
+   margin: 15px
+}
+
+
+#menu{
+
+    display: flex;
+    background-color: #f2d0e0;
+    height: 500px;
+    width: 300px;
+    flex-direction: column;
+}
+
+main > div{
+    margin: 5px;
+    
+    align-items: center;
+}
+
+
+.imagem1{
+    align-items: center;
+    
+}
+
+
+
+footer{
+
+background-color:mediumvioletred;
+display: flex;
+justify-content: center;
+height: 40px;
+align-items: center;
+
+}
