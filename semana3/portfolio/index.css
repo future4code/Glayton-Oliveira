@@ -1,0 +1,188 @@
+body {
+
+    background-color: #f6f5f5;
+    margin-right: 0px;
+    padding: 0px;
+
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+section{
+
+    width: 100%;
+    height: 95vh;
+    background-image: url(./img/fundo-de-impressao-digital-em-estilo-neon_23-2148372644.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+/*Estilo navegador*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #ffff;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
+    padding: 0px 5%;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li a{
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #505050;
+    font-size: 15px;
+    font-weight: 700;
+
+}
+
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0000;
+    font-size: 22px;
+}
+
+.active{
+    font-weight: bold;
+    color: purple;
+
+}
+
+/*Estilo do texto*/
+.conteudo-texto p:nth-child(1){
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: rgb(241, 0, 0);
+    font-size: 30px;
+
+}
+
+.conteudo-texto p:nth-child(2){
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #000;
+    font-size: 60px;
+}
+
+.conteudo-texto p:nth-child(3){
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #c30a0a;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.conteudo-texto{
+    line-height: 0px;
+    margin: 45px 0px 25px;
+
+
+}
+.conteudo-texto{
+    position: absolute;
+    left: 13%;
+    top: 42%;
+    transform: translate(-13%, -42%);
+}
+
+.conteudo-texto button{
+    width: 130px;
+    height: 42px;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    outline: none;
+    margin: 0px 10px;
+}
+
+.botao1{
+    border: 2px solid #373636;
+    color:#373636 ;
+}
+.botao2 {
+    background-color: #0b0b0b;
+    border: none;
+    color: #ffffff;
+}
+button:active{
+    transform: scale(1.1);
+}
+
+/*Estilo da imagem de fundo do banner*/
+
+.imgglayton{
+    height: 390px;
+    position: absolute;
+    bottom: 89px;
+    left: 87%;
+    transform: translateX(-70%);
+}
+
+.conteudo-sobre{
+    width: 80%;
+    height: 330px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
+    display: flex;
+    margin: -7% auto 20px auto;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.conteudo-sobre img{
+    height: 250px;
+
+}
+.texto-sobre{
+    width: 550px;
+
+}
+
+.conteudo-sobre p:nth-child(1){
+    color: #2e4cad;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 0px;
+}
+.conteudo-sobre p:nth-child(2){
+    color: #52078f;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-weight: 5px;
+}
+.conteudo-sobre p:nth-child(3),
+.conteudo-sobre p:nth-child(4){
+color: #000;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+}
+
+
+.texto-sobre button{
+    width: 120px;
+    height: 40px;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #262325;
+}
