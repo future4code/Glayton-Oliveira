@@ -4,6 +4,8 @@ import Like from "./components/Like";
 import Dislike from "./components/Dislike";
 import Match from "./components/Match";
 import Perfil from "./components/Perfil";
+import Clear from "./components/Clear"
+import PerfilCard from "./components/PerfilCard";
 
 const BordaGeral = styled.div `
   position: absolute;
@@ -30,6 +32,8 @@ export default function App() {
     <Dislike/>
     <Match/>
     <Perfil/>
+    <Clear/>
+    
 
   </div>
   );
