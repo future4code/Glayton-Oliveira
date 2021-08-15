@@ -5,7 +5,7 @@ const BotaoLike = styled.div `
   position: absolute;
   width: 300px;
   height: 450px;
-  left: 365px;
+  left: 390px;
   top: 460px;
   display: flex;
   justify-content: end;
@@ -17,7 +17,7 @@ export default function Like() {
     return(
         <BotaoLike>
         <div>
-           <button>s2</button> 
+           <button>LIKE</button> 
         </div>
         </BotaoLike>
     )

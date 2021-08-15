@@ -17,7 +17,7 @@ export default function Dislike() {
     return(
         <BotaoDislike>
         <div>
-           <button>X</button>
+           <button>DISLIKE</button>
         </div>
         </BotaoDislike>
     )

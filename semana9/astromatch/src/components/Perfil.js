@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react"
 import axios from "axios"
 import styled from "styled-components"
 
+
 const Nome = styled.div `
   position: absolute;
   left: 460px;
@@ -20,11 +21,11 @@ position: absolute;
 `
 
 const Img = styled.div `
-    display:inline-block;
-    margin: 1px;
-    background: no-repeat center;
-    background-size: cover;
-    
+  position: absolute;
+  left: 510px;
+  top: 125px;
+  display: flex;
+  justify-content: end;
 `
 
 
@@ -45,7 +46,7 @@ export default function Perfil() {
         //authorization: glayton-lovelace
         .then(res => {
             setPerfil(res.data.profile)
-            console.log(res.data.profile)
+            
         })
         .catch(err => {
             console.log(err);
@@ -60,15 +61,14 @@ export default function Perfil() {
             <p>{perfil.name}, {perfil.age} </p>
             </Nome>
             <AgeBio>
-            <p></p>
             <p>{perfil.bio}</p>
             </AgeBio>
             <Img>
-            <img src={perfil.photo}/>
+            <img width='200px' height='200px' src={perfil.photo}/>
             </Img>
             
         </div>
     )
 }
-//<img src={perfil.photo}/>
+
 

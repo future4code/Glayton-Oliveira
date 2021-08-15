@@ -2,6 +2,7 @@ import React, {useEffect, useState} from "react"
 import styled from "styled-components"
 import axios from "axios"
 
+
 const LimparPerfil = styled.div `
   position: absolute;
   width: 50px;
